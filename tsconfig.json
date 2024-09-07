@@ -3,9 +3,32 @@
   "compilerOptions": {
     "strict": true,
 
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
-      "~/*": ["*"]
+      "@assets/*": [
+        "./src/assets/*"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@routes/*": [
+        "./src/routes/*"
+      ],
+      "@screens/*": [
+        "./src/screens/*"
+      ],
+      "@storage/*": [
+        "./src/storage/*"
+      ],
+      "@theme/*": [
+        "./src/shared/theme/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ],
+      "@shared/*": [
+        "./src/shared/*"
+      ]
     }
   },
   "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"]
