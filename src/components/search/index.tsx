@@ -7,7 +7,7 @@ export function Search(){
     return (
         <Style.Container>
             <Feather name="search" size={24} color={theme.COLOR_ICON.GRAY}/>
-            <Style.InputSeach placeholder="Procure sua comida"/>
+            <Style.InputSeach placeholder="Procure sua comida..."/>
         </Style.Container>
     )
 }
