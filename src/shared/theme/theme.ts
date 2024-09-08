@@ -9,8 +9,6 @@ export default {
             GREEN_MID: "#CBE4B4",
             GREEN_LIGHT: "#E5F0DB",
         
-
-    
             GRAY_100: "#1B1D1E",
             GRAY_200: "#333638",
             GRAY_300: "#5C6265",
@@ -18,7 +16,13 @@ export default {
             GRAY_500: "#DDDEDF",
             GRAY_600: "#EFF0F0",
             GRAY_700: "#FAFAFA",
-            WHITE: "#FFFFFF"
+            WHITE: "#FFFFFF",
+
+          
+    },
+    COLOR_ICON: {
+      BLACK: "#121212",
+      RED: "#FF0000"
     },
     
     FONT_FAMILY: {

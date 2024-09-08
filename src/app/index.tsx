@@ -2,10 +2,11 @@ import { Stack } from 'expo-router';
 import { Text } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { ThemeProvider } from "styled-components/native";
-import theme from '@shared/theme/theme';
+import theme from '@theme/theme';
 import { useFonts, NunitoSans_700Bold, NunitoSans_400Regular} from '@expo-google-fonts/nunito-sans';
+import Home from '@screens/Home';
 
-export default function Index() {
+export default function App() {
   const [fonstLoad] = useFonts({ NunitoSans_400Regular, NunitoSans_700Bold });
 
   return (
@@ -16,7 +17,7 @@ export default function Index() {
          backgroundColor="transparent"
          translucent
        />
-       { fonstLoad ? <Text> Home</Text> : <Text> Carregando </Text> }
+        <Home/>
     </ThemeProvider>
     </>
   );
