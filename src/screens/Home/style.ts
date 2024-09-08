@@ -10,9 +10,14 @@ export const Container = styled.ScrollView`
   background-color: ${theme.COLORS.GRAY_600};
   display: flex;
   aling-items: center;
+  flex-direction: column;
 `;
 
-export const Teste = styled.View``;
+export const SectionCards = styled.View`
+  margin-top: 6%;
+  padding-left: 3%;
+  padding-right: 3%;
+`;
 
 export const ViewHeader = styled.View<HomeStyleProps>`
   margin-top: ${({ distanceMarginTop })=> distanceMarginTop}px;
@@ -20,4 +25,5 @@ export const ViewHeader = styled.View<HomeStyleProps>`
   padding-right: 3%;
   display: flex;
   gap: 15%;
+  width: 100%;
 `;
