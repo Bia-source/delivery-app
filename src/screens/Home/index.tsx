@@ -2,6 +2,7 @@ import { Header } from '@components/header';
 import * as Style from './style';
 import Constants from 'expo-constants';
 import {Banner} from '@components/banner';
+import { Search } from '@components/search';
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
     <Style.ViewHeader distanceMarginTop={statusBarHeight + 8}>
         <Header/>
         <Banner/>
+        <Search/>
     </Style.ViewHeader>
 </Style.Container>
   );
