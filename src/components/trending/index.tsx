@@ -23,6 +23,7 @@ export function TrendingFoods() {
   return (
     <Styled.Container>
       <Styled.FlatList
+        showsHorizontalScrollIndicator={false}
         horizontal={true}
         data={foods}
         renderItem={({ item }) => <CardHorizontalFood food={item} />}
@@ -30,4 +31,3 @@ export function TrendingFoods() {
     </Styled.Container>
   );
 }
-
