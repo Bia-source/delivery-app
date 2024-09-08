@@ -1,4 +1,4 @@
-import "@shared/styles/global.css";
+import "@shared/styles/global";
 import { Slot  } from 'expo-router';
 
 export default function RootLayout() {

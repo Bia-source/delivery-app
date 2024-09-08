@@ -12,7 +12,8 @@ module.exports = function (api) {
         '@storage': './src/storage',
         '@utils': './src/utils',
         '@shared': './src/shared',
-        '@theme': './src/shared/theme'
+        '@theme': './src/shared/theme',
+        '@interfaces': './src/interfaces'
       },
     },
   ],

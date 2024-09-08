@@ -1,3 +1,4 @@
+import { TrendingFoods } from '@components/trending';
 import * as Style from './style';
 import { SizeDefault } from '@shared/styles/global';
 
@@ -17,6 +18,7 @@ export function Section({ title, size, label, action }: SectionProps) {
             <Style.TextMore>{label}</Style.TextMore>
         </Style.Pressable>
       </Style.FirstView>
+      <TrendingFoods/>
     </Style.Container>
   );
 }

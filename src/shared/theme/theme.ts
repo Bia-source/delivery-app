@@ -23,7 +23,8 @@ export default {
     COLOR_ICON: {
       BLACK: "#121212",
       RED: "#FF0000",
-      GRAY: "#64748b"
+      GRAY: "#64748b",
+      YELLOW: "#f3c80e",
     },
     
     FONT_FAMILY: {
